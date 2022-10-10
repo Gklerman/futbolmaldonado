@@ -161,6 +161,17 @@ section {
     width: 645px;
 }
 
+/* --- PARTIDOS --- */
+.partido {
+    height: 60px;
+    background-color: #FFF;
+    border-bottom: 2px solid #CCC;
+}
+.fontPartidos {
+    font-size: 2em;
+    font-weight: 700;
+}
+
 /* --- DIV EMPTY --- */
 #empty {
     width: 100%;
