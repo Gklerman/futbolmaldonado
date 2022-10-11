@@ -1,23 +1,23 @@
 /* --- GOOGLE FONTS --- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;700&display=swap"); /* --- NAV --- */
 nav {
-  background-color: #00488C;
-  box-shadow: 0px 5px 5px #888;
+  background-color: #FFF;
+  box-shadow: 0px 5px 5px #ccc;
 }
 nav li {
   font-size: 1.8em;
 }
 nav li a {
   text-decoration: none;
-  color: #CCC;
+  color: #999;
 }
 nav li a:hover {
-    color: #FFF;
-    border-bottom: 3px solid #FFF;
+    color: #000;
+    border-bottom: 3px solid #000;
 }
 #enlaceNav {
-    color: #FFF;
-    border-bottom: 3px solid #FFF;
+    color: #000;
+    border-bottom: 3px solid #000;
 }
 
 /* --- RESET --- */
@@ -42,11 +42,17 @@ html {
     width: 100%;
   }
 
+.container {
+    max-width: 1200px;
+}
+
 /* --- SECTION --- */
 section {
     margin-top: 20px;
 }
-
+section h1 {
+    font-size: 3em;
+}
 .equipos {
     height: 100px;
     box-shadow: 0px 0px 2px #BEBEBE;
@@ -158,18 +164,45 @@ section {
     font-size: 1.5em;
 }
 .cardBox {
-    width: 645px;
+    width: 585px;
 }
 
 /* --- PARTIDOS --- */
+h3 span {
+    font-weight: 700;
+}
 .partido {
     height: 60px;
     background-color: #FFF;
     border-bottom: 2px solid #CCC;
 }
 .fontPartidos {
+    padding: 10px;
+    background-color: #DDD;
     font-size: 2em;
     font-weight: 700;
+}
+.fontRes {
+    font-size: 2em;
+    font-weight: 700;
+}
+.infoPartido {
+    height: 20px;
+    font-size: 1.3em;
+}
+.resultado {
+    max-width: 60px;
+}
+
+button {
+    width: 20%;
+    padding: 16px 0;
+    background-color: #04aa6d;
+    border: none;
+    font-size: 1.5em;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* --- DIV EMPTY --- */
