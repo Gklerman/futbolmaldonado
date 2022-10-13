@@ -97,13 +97,13 @@ section h1 {
 .boxEquipoKen:hover {
     background-color: #EFEF01;
     box-shadow: 0px 0px 10px #888;
-    color: #FFF;
+    color: #000;
     cursor: pointer;
 }
 .boxEquipoPsc:hover {
     background-color: #FECB00;
     box-shadow: 0px 0px 10px #888;
-    color: #FFF;
+    color: #000;
     cursor: pointer;
 }
 .boxEquipoPde:hover {
@@ -192,6 +192,17 @@ h3 span {
 }
 .resultado {
     max-width: 60px;
+}
+
+/* --- POSICIONES ---*/
+.posiciones {
+    font-size: 1.5em;
+}
+.posiciones span {
+    font-weight: 700;
+}
+.posiciones h1 {
+    font-size: 2em;
 }
 
 button {
